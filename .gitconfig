@@ -1,0 +1,36 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Sarah Purohit
+	email = winocm@chariot-requiem
+
+[core]
+	editor = subl -n -w
+
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    l  = log --stat
+    ca = commit --amend --reset-author --signoff
+    cm = commit -s -m
+    co = checkout
+    cp = cherry-pick -x
+    ds = diff --staged
+    g  = grep
+    mb = merge -srecursive -Xpatience -Xtheirs --progress --signoff
+    pr = pull --autostash
+    ri = rebase -i
+    rl = reflog
+    rs = reset --hard
+    sm = submodule
+    smu = submodule update
+    smui = submodule update --init
+    smuir = submodule update --init --recursive
+    st = status
+    lcn = shortlog -sn   
+    prune-all = !git remote | xargs -n 1 git remote prune
+    cherry-pick-merge = !"sh -c 'git cherry-pick --no-commit --mainline 1 $0 && \
+      git log -1 --pretty=%P $0 | cut -b 42- > .git/MERGE_HEAD && \
+      git commit --verbose'"
+    branch-create = "!f(){ \
+        git branch --no-track \"$1\"; \
+        git checkout \"$1\"; \
+    };f"
