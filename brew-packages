@@ -1,3 +1,4 @@
+binwalk
 boost
 ccache
 cmake
@@ -8,6 +9,7 @@ freetype
 gcc
 gdbm
 gettext
+git
 glib
 gmp
 gnutls
@@ -53,6 +55,7 @@ readline
 redis
 screenresolution
 sqlite
+ssdeep
 tmux
 tree
 unrar
