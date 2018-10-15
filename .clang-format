@@ -1,0 +1,52 @@
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: false
+# AlignConsecutiveMacros: true
+AlignEscapedNewlines: Right
+AlignTrailingComments: false
+AlignOperands: true
+BreakBeforeBinaryOperators: None
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AlwaysBreakAfterReturnType: AllDefinitions
+AlwaysBreakBeforeMultilineStrings: true
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: false
+BreakBeforeInheritanceComma: true
+BinPackParameters: true
+BreakBeforeBraces: Linux
+ColumnLimit: 132
+Cpp11BracedListStyle: true
+# ConstructorInitializerAllOnOneLineOrOnePerLine: true
+FixNamespaceComments: true
+IndentCaseLabels: true
+IndentWidth: 4
+# IndentWrappedFunctionNames: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+NamespaceIndentation: All
+PointerAlignment: Left
+ReflowComments: true
+SortIncludes: false
+SpaceAfterCStyleCast: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth: 4
+UseTab: Never
+PenaltyBreakBeforeFirstCallParameter: 5000
+PenaltyBreakAssignment: 10
+PenaltyBreakComment: 10
+PenaltyBreakFirstLessLess: 0
+PenaltyBreakString: 10
+PenaltyExcessCharacter: 5000
+PenaltyReturnTypeOnItsOwnLine: 60
+
