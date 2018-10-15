@@ -24,6 +24,9 @@ for i in `cat mas-app-ids`; do
     mas install $i;
 done
 
+# Set sane defaults
+./defaults-write.sh
+
 # Start services
 brew services start mariadb
 brew services start redis
