@@ -23,3 +23,7 @@ done
 for i in `cat mas-app-ids`; do
     mas install $i;
 done
+
+# Start services
+brew services start mariadb
+brew services start redis
