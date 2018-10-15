@@ -34,3 +34,7 @@
         git branch --no-track \"$1\"; \
         git checkout \"$1\"; \
     };f"
+    tag-create = "!f(){ \
+        v=$(git symbolic-ref --short HEAD); \
+        git tag -f -a -m \"Tagging $1 from $v.\" $1; \
+    };f"
