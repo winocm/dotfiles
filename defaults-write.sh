@@ -39,7 +39,8 @@ echo "- Dock on the left"
 defaults write com.apple.dock 'orientation' -string 'left'
 
 echo "- Mission control: group by app"
-defaults write com.apple.dock expose-group-by-app -bool false
+defaults write com.apple.dock expose-group-apps -bool true
+defaults write com.apple.dock expose-group-by-app -bool true
 
 echo "- Magnify apps on the dock"
 defaults write com.apple.dock magnification -bool true
