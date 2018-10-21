@@ -38,3 +38,6 @@
         v=$(git symbolic-ref --short HEAD); \
         git tag -f -a -m \"Tagging $1 from $v.\" $1; \
     };f"
+    fsck-all = fsck -v --full --progress --strict
+    gc-all = gc --aggressive --prune
+
