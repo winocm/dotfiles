@@ -2,6 +2,7 @@ binwalk
 boost
 cabextract
 ccache
+cloc
 cmake
 colordiff
 coreutils
@@ -39,6 +40,7 @@ llvm
 makedepend
 mariadb
 mas
+md5sha1sum
 mingw-w64
 mitmproxy
 mpfr
@@ -69,6 +71,7 @@ redis
 rename
 screenresolution
 sip
+sloccount
 sphinx-doc
 sqlite
 ssdeep
