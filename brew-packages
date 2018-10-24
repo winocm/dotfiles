@@ -7,6 +7,8 @@ cmake
 colordiff
 coreutils
 dos2unix
+faac
+fdk-aac
 ffmpeg
 flac
 freetype
@@ -28,6 +30,7 @@ ipmitool
 isl
 jpeg
 lame
+libav
 libevent
 libffi
 libidn2
@@ -39,6 +42,7 @@ libtiff
 libtool
 libunistring
 libvorbis
+libvpx
 llvm
 mad
 makedepend
@@ -56,6 +60,7 @@ nmap
 node
 openssl
 optipng
+opus
 p11-kit
 p7zip
 pcre
