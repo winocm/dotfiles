@@ -8,6 +8,7 @@ colordiff
 coreutils
 dos2unix
 ffmpeg
+flac
 freetype
 gawk
 gcc
@@ -31,12 +32,15 @@ libevent
 libffi
 libidn2
 libmpc
+libogg
 libpng
 libtasn1
 libtiff
 libtool
 libunistring
+libvorbis
 llvm
+mad
 makedepend
 mariadb
 mas
@@ -72,6 +76,7 @@ rename
 screenresolution
 sip
 sloccount
+sox
 sphinx-doc
 sqlite
 ssdeep
