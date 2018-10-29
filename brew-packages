@@ -4,6 +4,7 @@ apr-util
 argon2
 aspell
 autoconf
+automake
 binwalk
 boost
 cabextract
