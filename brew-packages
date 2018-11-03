@@ -108,6 +108,7 @@ qt
 readline
 redis
 rename
+ripgrep
 scale2x
 scons
 screenresolution
