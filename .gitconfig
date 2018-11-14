@@ -40,4 +40,4 @@
     };f"
     fsck-all = fsck -v --full --progress --strict
     gc-all = gc --aggressive --prune
-
+    fetch-lite = --update-shallow --depth 1
