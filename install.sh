@@ -14,6 +14,7 @@ fi
 
 cat brew-packages | xargs brew install
 cat brew-cask-packages | xargs brew cask install
+cat mas-app-ids | xargs mas install
 
 # Install long list of packages.
 IFS=$'\n'
