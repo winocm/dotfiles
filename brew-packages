@@ -1,4 +1,5 @@
 acpica
+aom
 apr
 apr-util
 argon2
@@ -31,6 +32,7 @@ flac
 fontconfig
 freetds
 freetype
+frei0r
 fribidi
 gawk
 gcc
@@ -72,6 +74,7 @@ jemalloc
 jpeg
 lame
 libart
+libass
 libav
 libepoxy
 libev
@@ -80,8 +83,10 @@ libffi
 libglade
 libgnomecanvas
 libiconv
+libidn
 libidn2
 libmemcached
+libmetalink
 libmpc
 libogg
 libomp
@@ -127,6 +132,7 @@ nmap
 node
 oniguruma
 opam
+opencore-amr
 openjpeg
 openldap
 openssl
@@ -158,6 +164,7 @@ readline
 redis
 rename
 ripgrep
+rtmpdump
 scale2x
 scons
 screenresolution
@@ -169,6 +176,7 @@ snappy
 socat
 sox
 speedtest-cli
+speex
 sphinx-doc
 sqlite
 ssdeep
@@ -180,10 +188,12 @@ tidy-html5
 tmux
 trash
 tree
+ucl
 ufraw
 uncrustify
 unixodbc
 unrar
+upx
 vde
 watch
 webp
