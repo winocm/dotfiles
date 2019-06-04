@@ -50,6 +50,7 @@ gnu-sed
 gnutls
 graphite2
 graphviz
+grep
 gsettings-desktop-schemas
 gtk+
 gtk+3
@@ -122,6 +123,7 @@ mingw-w64
 mitmproxy
 mosh
 mpfr
+mtools
 nasm
 ncurses
 neofetch
@@ -130,6 +132,7 @@ nghttp2
 ninja
 nmap
 node
+ntp
 oniguruma
 opam
 opencore-amr
