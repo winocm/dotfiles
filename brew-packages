@@ -77,6 +77,7 @@ lame
 libart
 libass
 libav
+libde265
 libepoxy
 libev
 libevent
@@ -173,6 +174,7 @@ scons
 screenresolution
 sdl
 sdl2
+shared-mime-info
 sip
 sloccount
 snappy
@@ -193,6 +195,7 @@ trash
 tree
 ucl
 ufraw
+unbound
 uncrustify
 unixodbc
 unrar
