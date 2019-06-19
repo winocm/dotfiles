@@ -16,6 +16,8 @@ cat brew-packages | xargs brew install
 cat brew-cask-packages | xargs brew cask install
 cat mas-app-ids | xargs mas install
 
+
+
 # Install long list of packages.
 IFS=$'\n'
 
@@ -31,6 +33,8 @@ IFS=$'\n'
 
 # Set sane defaults
 ./defaults-write.sh
+
+sudo xcodebuild -license accept
 
 # Start services
 brew services start mariadb
