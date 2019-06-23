@@ -26,3 +26,6 @@ sudo xcodebuild -license accept
 # Start services
 brew services start mariadb
 brew services start redis
+
+# Restart userspace
+sudo launchctl reboot userspace
