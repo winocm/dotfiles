@@ -23,6 +23,9 @@ IFS=$'\n'
 
 sudo xcodebuild -license accept
 
+# Add the old style motd
+echo 'Welcome to Darwin!' | sudo tee /etc/motd > /dev/null
+
 # Start services
 brew services start mariadb
 brew services start redis
