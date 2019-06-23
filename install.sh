@@ -5,6 +5,10 @@ ditto -v .gitconfig ~/.gitconfig
 ditto -v .gitignore ~/.gitignore
 ditto -v .clang-format ~/.clang-format
 
+# Copy over bash settings
+ditto -v .bashrc ~/.bashrc
+ditto -v .bash_profile ~/.bash_profile
+
 # Install homebrew.
 if [ ! -f /usr/local/bin/brew ]; then
     xcode-select --install
