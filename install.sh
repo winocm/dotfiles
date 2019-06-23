@@ -3,7 +3,6 @@
 # Copy my gitconfigs...
 ditto -v .gitconfig ~/.gitconfig
 ditto -v .gitignore ~/.gitignore
-
 ditto -v .clang-format ~/.clang-format
 
 # Install homebrew.
@@ -16,20 +15,8 @@ cat brew-packages | xargs brew install
 cat brew-cask-packages | xargs brew cask install
 cat mas-app-ids | xargs mas install
 
-
-
 # Install long list of packages.
 IFS=$'\n'
-
-# for i in `cat brew-packages`; do
-#     brew install $i;
-# done
-# for i in `cat brew-cask-packages`; do
-#     brew cask install $i;
-# done
-# for i in `cat mas-app-ids`; do
-#     mas install $i;
-# done
 
 # Set sane defaults
 ./defaults-write.sh
