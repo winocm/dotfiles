@@ -8,7 +8,7 @@ ditto -v .clang-format ~/.clang-format
 # Copy over bash settings
 ditto -v .bashrc ~/.bashrc
 ditto -v .bash_profile ~/.bash_profile
-sudo chsh -s /bin/sh $(whoami)
+sudo chsh -s /bin/bash $(whoami)
 
 # Install homebrew.
 if [ ! -f /usr/local/bin/brew ]; then
