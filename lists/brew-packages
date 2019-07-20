@@ -41,6 +41,7 @@ gdbm
 gdk-pixbuf
 gettext
 gflags
+giflib
 git
 git-lfs
 glib
@@ -56,6 +57,7 @@ gtk+
 gtk+3
 gtk-mac-integration
 gtksourceview
+gts
 gzip
 harfbuzz
 hashcat
@@ -63,6 +65,7 @@ hicolor-icon-theme
 htop
 icu4c
 iftop
+ilmbase
 imagemagick
 imagemagick@6
 infer
@@ -74,9 +77,11 @@ jasper
 jemalloc
 jpeg
 lame
+leptonica
 libart
 libass
 libav
+libbluray
 libde265
 libepoxy
 libev
@@ -84,6 +89,7 @@ libevent
 libffi
 libglade
 libgnomecanvas
+libheif
 libiconv
 libidn
 libidn2
@@ -95,8 +101,10 @@ libomp
 libplist
 libpng
 libpq
+libsamplerate
 libsndfile
 libsodium
+libsoxr
 libssh2
 libtasn1
 libtiff
@@ -111,6 +119,7 @@ libzip
 little-cms2
 llvm
 lz4
+lzo
 mad
 makedepend
 mariadb
@@ -128,6 +137,7 @@ mtools
 nasm
 ncurses
 neofetch
+netpbm
 nettle
 nghttp2
 ninja
@@ -137,6 +147,7 @@ ntp
 oniguruma
 opam
 opencore-amr
+openexr
 openjpeg
 openldap
 openssl
@@ -169,6 +180,7 @@ redis
 rename
 ripgrep
 rtmpdump
+rubberband
 scale2x
 scons
 screenresolution
@@ -188,6 +200,7 @@ ssdeep
 stunnel
 swig
 telnet
+tesseract
 theora
 tidy-html5
 tmux

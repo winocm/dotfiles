@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>JIMDictionaryTrainerLastProcessedFileID</key>
+	<integer>0</integer>
+	<key>JIMDictionaryTrainerLastProcessedRecordNumber</key>
+	<integer>0</integer>
+	<key>JIMPrefCapsLockActionKey</key>
+	<integer>4</integer>
+	<key>JIMPrefCharacterForSlashKey</key>
+	<integer>0</integer>
+	<key>JIMPrefCharacterForYenKey</key>
+	<integer>1</integer>
+	<key>JIMPrefConvertWithPunctuationKey</key>
+	<false/>
+	<key>JIMPrefFullWidthNumeralCharactersKey</key>
+	<true/>
+	<key>JIMPrefVersionKey</key>
+	<integer>1</integer>
+</dict>
+</plist>

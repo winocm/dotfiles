@@ -1,0 +1,6 @@
+#!/bin/sh
+print_line() {
+    _cur_time=`date '+%Y/%m/%d %H:%M:%S'`
+    printf '[%s] ' "$_cur_time"
+    echo $@
+}

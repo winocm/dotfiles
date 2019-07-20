@@ -1,39 +1,34 @@
 #!/bin/bash
+source functions/common
 
-# Copy my gitconfigs...
-ditto -v .gitconfig ~/.gitconfig
-ditto -v .gitignore ~/.gitignore
-ditto -v .clang-format ~/.clang-format
+print_line "Setting up the environment."
 
-# Copy over bash settings
-ditto -v .bashrc ~/.bashrc
-ditto -v .bash_profile ~/.bash_profile
-sudo chsh -s /bin/bash $(whoami)
+# Copy dotfiles to home
+./scripts/install-dotfiles.sh
 
-# Install homebrew.
-if [ ! -f /usr/local/bin/brew ]; then
-    xcode-select --install
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+# Set the default shell to bash
+./scripts/set-shell-to-bash.sh
 
-cat brew-packages | xargs brew install
-cat brew-cask-packages | xargs brew cask install
-cat mas-app-ids | xargs mas install
+# Install homebrew
+./scripts/install-homebrew.sh
 
-# Install long list of packages.
-IFS=$'\n'
+# Install homebrew packages
+./scirpts/install-homebrew-packages.sh
 
 # Set sane defaults
-./defaults-write.sh
+./scripts/defaults-write.sh
 
-sudo xcodebuild -license accept
+# Remap keyboard settings
+./scripts/remap-keyboard.sh
 
-# Add the old style motd
-echo 'Welcome to Darwin!' | sudo tee /etc/motd > /dev/null
+# Set up applications
+./scripts/defaults-app-write.sh
+
+# Create and install the Root FS overlay root
+./scripts/install-rootfs-overlay.sh
 
 # Start services
-brew services start mariadb
-brew services start redis
+./scripts/start-services.sh
 
 # Restart userspace
-sudo launchctl reboot userspace
+./scripts/restart-userspace.sh
