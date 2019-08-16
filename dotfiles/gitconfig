@@ -17,7 +17,7 @@
     ds = diff --staged
     g  = grep
     mb = merge -srecursive -Xpatience -Xtheirs --progress --signoff
-    mi = merge--signoff -v --log --stat --commit
+    mi = merge --signoff -v --log --stat --commit
     pr = pull --autostash
     ri = rebase -i
     rl = reflog
