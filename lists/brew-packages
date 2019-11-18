@@ -29,6 +29,7 @@ faac
 fdk-aac
 ffmpeg
 figlet
+findutils
 flac
 fontconfig
 freetds
@@ -160,6 +161,7 @@ opusfile
 p11-kit
 p7zip
 pango
+parallel
 pcre
 pcre2
 php
@@ -167,6 +169,7 @@ php-cs-fixer
 phplint
 pixman
 pkg-config
+prettier
 protobuf
 pv
 pwgen
