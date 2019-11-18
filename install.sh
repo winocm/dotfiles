@@ -30,5 +30,8 @@ print_line "Setting up the environment."
 # Start services
 ./scripts/start-services.sh
 
+# Install Xcode dependencies.
+./scripts/install-xcode-dependencies.sh
+
 # Restart userspace
 ./scripts/restart-userspace.sh
