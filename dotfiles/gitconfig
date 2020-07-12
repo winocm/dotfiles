@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
     name = Sarah Purohit
-    email = winocm@chariot-requiem
+    email = winocm@icloud.com
 
 [core]
     editor = subl -n -w
